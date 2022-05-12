@@ -8,4 +8,4 @@ The is a student project toy database management system modeling a social media 
 4. Start the database with `npm run start`.
 ## Routes
 ---- | ------------ | -------------------   
-GET  `/api/users` Returns all users.
+GET  | `/api/users` | Returns all users.
