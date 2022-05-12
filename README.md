@@ -8,7 +8,7 @@ The is a student project toy database management system modeling a social media 
 4. Start the database with `npm run start`.
 ## Routes
 
-     |                      |
+HTTP Method |   |  Subdirectory Route | Results                    |
 ---- | -------------------- | -------------------   
 GET  | `/api/users`         | Returns all users.
 ---- | -------------------- | -------------------   
