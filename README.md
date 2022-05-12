@@ -4,3 +4,6 @@ The is a student project toy database management system modeling a social media 
 ## Installation  
 1. Open the resident folder in an integrated terminal.
 2. Install depenencies with `npm install`.
+3. Populate the database with mock data using `npm run seed`.
+4. Start the database with `npm run start`.
+## Routes
