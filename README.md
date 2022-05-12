@@ -8,10 +8,15 @@ The is a student project toy database management system modeling a social media 
 4. Start the database with `npm run start`.
 ## Routes
 
-HTTP Method | Subdirectory Route   | Results                    |
------------ | -------------------- | -------------------   
-GET         | `/api/users`         | Returns all users.
-GET         | `/api/users/:userId` | Returns a single user with userId.
-POST        | `/api/users`         | Creates the user encoded in the request body.
-PUT         | `/api/users/:userId` | Modifies the user with the userId with information encoded in the request body.
-DELETE      | `/api/users/:userId` | Deletes a single user with userId.
+HTTP Method | Subdirectory Route        | Results                    |
+----------- | ------------------------- | -------------------   
+GET         | `/api/users`              | Returns all users.
+GET         | `/api/users/:userId`      | Returns a single user with userId.
+POST        | `/api/users`              | Creates the user encoded in the request body.
+PUT         | `/api/users/:userId`      | Modifies the user with the userId with information encoded in the request body.
+DELETE      | `/api/users/:userId`      | Deletes a single user with userId.
+GET         | `/api/thought`            | Returns all thoughts.
+GET         | `/api/thought/:thoughtId` | Returns a single thought with thoughtId.
+POST        | `/api/thought   `         | Creates the thought encoded in the request body.
+PUT         | `/api/thought/:thoughtId` | Modifies the thought with the thoughtId with information encoded in the request body.
+DELETE      | `/api/thought/:thoughtId` | Deletes a single thought with thoughtId.
