@@ -13,3 +13,4 @@ HTTP Method | Subdirectory Route   | Results                    |
 GET         | `/api/users`         | Returns all users.
 GET         | `/api/users/:userId` | Returns a single user with userId.
 POST        | `/api/users`         | Creates the user encoded in the request body.
+PUT         | ``/api/users/:userId`| Modifies an exist user with information encoded in the request body.
