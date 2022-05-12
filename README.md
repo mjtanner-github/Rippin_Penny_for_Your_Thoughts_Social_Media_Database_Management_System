@@ -8,9 +8,8 @@ The is a student project toy database management system modeling a social media 
 4. Start the database with `npm run start`.
 ## Routes
 
-HTTP Method | Subdirectory Route | Results                    |
------------ | ------------------ | -------------------   
-GET         | `/api/users`       | Returns all users.
------------ | ------------------ | -------------------   
-GET  | `/api/users/:userId` | Returns a single user with userId.
----- | -------------------- | -------------------   
+HTTP Method | Subdirectory Route   | Results                    |
+----------- | -------------------- | -------------------   
+GET         | `/api/users`         | Returns all users.
+GET         | `/api/users/:userId` | Returns a single user with userId.
+POST        | `/api/users`         | Creates the user encoded in the request body.
