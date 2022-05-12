@@ -7,6 +7,8 @@ The is a student project toy database management system modeling a social media 
 3. Populate the database with mock data using `npm run seed`.
 4. Start the database with `npm run start`.
 ## Routes
+
+---- | -------------------- | -------------------   
 GET  | `/api/users`         | Returns all users.
 ---- | -------------------- | -------------------   
 GET  | `/api/users/:userId` | Returns a single user with userId.
