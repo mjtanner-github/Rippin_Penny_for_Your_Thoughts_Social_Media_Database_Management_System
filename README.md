@@ -9,3 +9,4 @@ The is a student project toy database management system modeling a social media 
 ## Routes
 ---- | ------------ | -------------------   
 GET  | `/api/users` | Returns all users.
+---- | ------------ | -------------------   
