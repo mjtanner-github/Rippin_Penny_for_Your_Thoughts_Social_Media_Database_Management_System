@@ -3,7 +3,7 @@ The is a student project toy database management system modeling a social media 
 ![Title Screen](./ReadMe/banner.png)
 
 ## Video Demonstration   
-[![Demonstration Video Thumbnail](https://i3.ytimg.com/vi/esc-DX0gB8U/maxresdefault.jpg)](https://youtu.be/esc-DX0gB8U)
+[![Demonstration Video Thumbnail](./ReadMe/demo_thumbnail.jpg)](https://youtu.be/esc-DX0gB8U)
 
 
 ## Installation  
