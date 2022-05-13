@@ -31,4 +31,4 @@ POST         | `/api/thought/:thoughtId/reaction`             | Creates the reac
 DELETE       | `/api/thought/:thoughtId/reaction/:reactionId` | Deletes a single reaction with reactionId.
 
 
-
+<img src="./ReadMe/schema.png" alt="Schema" title="Schema">
