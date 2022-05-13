@@ -1,6 +1,11 @@
 # Rippin_Penny_for_Your_Thoughts_Social_Media_Site
 The is a student project toy database management system modeling a social media site back end.
 ![Title Screen](./ReadMe/banner.png)
+
+## Video Demonstration   
+[![Demonstration Video Thumbnail](https://img.youtube.com/vi/UC6MVx3Rsl4iZl_tTzAAv4XQ/0.jpg)](https://www.youtube.com/watch?v=UC6MVx3Rsl4iZl_tTzAAv4XQ)
+
+
 ## Installation  
 1. Open the resident folder in an integrated terminal.
 2. Install depenencies with `npm install`.
@@ -8,7 +13,7 @@ The is a student project toy database management system modeling a social media 
 4. Start the database with `npm run start`.
 ## Routes
 
-Method  | Subdirectory Route                             | Results                    |
+Method       | Subdirectory Route                             | Results                    |
 ------------:| ---------------------------------------------- | -------------------   
 GET          | `/api/users`                                   | Returns all users.
 GET          | `/api/users/:userId`                           | Returns a single user with userId.
@@ -24,3 +29,6 @@ PUT          | `/api/thought/:thoughtId`                      | Modifies the tho
 DELETE       | `/api/thought/:thoughtId`                      | Deletes a single thought with thoughtId.
 POST         | `/api/thought/:thoughtId/reaction`             | Creates the reaction encoded in the request body.
 DELETE       | `/api/thought/:thoughtId/reaction/:reactionId` | Deletes a single reaction with reactionId.
+
+
+
