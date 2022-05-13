@@ -3,16 +3,15 @@ The is a student project toy database management system modeling a social media 
 ![Title Screen](./ReadMe/banner.png)
 
 ## Video Demonstration   
-[![Demonstration Video Thumbnail](./ReadMe/demo_thumbnail.png)](https://youtu.be/esc-DX0gB8U)
-
+[![Demonstration Video Thumbnail](./ReadMe/demo_thumbnail.png)](https://youtu.be/esc-DX0gB8U)  
 
 ## Installation  
 1. Open the resident folder in an integrated terminal.
 2. Install depenencies with `npm install`.
 3. Populate the database with mock data using `npm run seed`.
 4. Start the database with `npm run start`.
-## Routes
 
+## Routes  
 Method       | Subdirectory Route                             | Results                    |
 ------------:| ---------------------------------------------- | -------------------   
 GET          | `/api/users`                                   | Returns all users.
@@ -30,5 +29,5 @@ DELETE       | `/api/thought/:thoughtId`                      | Deletes a single
 POST         | `/api/thought/:thoughtId/reaction`             | Creates the reaction encoded in the request body.
 DELETE       | `/api/thought/:thoughtId/reaction/:reactionId` | Deletes a single reaction with reactionId.
 
-
+## Schema  
 <img src="./ReadMe/schema.png" alt="Schema" title="Schema">
